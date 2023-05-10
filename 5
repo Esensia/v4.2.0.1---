@@ -1,0 +1,20 @@
+print("Выберите цвет:")
+print("1. Красный")
+print("2. Зеленый")
+print("3. Синий")
+
+choice = input("Введите номер цвета: ")
+
+if choice == "1":
+    color = "красный"
+elif choice == "2":
+    color = "зеленый"
+elif choice == "3":
+    color = "синий"
+else:
+    print("Вы выбрали неверный номер цвета")
+    color = None
+
+if color:
+    print(f"Вы выбрали цвет {color}")
+
